@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
     url(../rsc/mtp_stock.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,8 +26,8 @@ input {
     background: none;
     border: none;
     outline: none;
-    color: #ddd;
-    border-bottom: 1px solid #ddd;
+    color: #1f2a6e;
+    border-bottom: 1px solid #1f2a6e;
     border-radius: 0;
 }
 
@@ -36,6 +36,9 @@ input {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(172, 172, 172, 0.7);
+    padding:10px;
+    border-radius:5%;
 }
 
 .input-area {
@@ -45,36 +48,36 @@ input {
 
 .btn {
     width: 100%;
-    padding: 5px;
-    color: #fff;
+    color: #1f2a6e!important;
     background: none;
     border: 1px solid #ddd;
     font-weight: 300;
     text-transform: uppercase;
-    box-shadow: 1px 1px 5px #000;
+    box-shadow: 1px 1px 5px #1f2a6e;
     transition: ease-in 0.2s;
     margin-top: 2px;
+    margin-left:0!important;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #ddd;
-    color: #333;
+    background-color: #1f2a6e;
+    color: #fff!important;
 }
 
 i {
-    color: #ddd;
+    color: #1f2a6e;
     margin: 0 5px 0 0;
 }
 
 .question {
     display: inline-block;
-    color: #ddd;
+    color: #1f2a6e;
     font-size: 12px;
 }
 
 .reg-btn {
-    color: #ddd;
+    color: #1f2a6e;
     margin-left: 5px;
     font-size: 12px;
 }
